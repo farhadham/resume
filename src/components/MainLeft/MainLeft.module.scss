@@ -45,6 +45,10 @@ h5 {
   margin-top: 15px;
   text-decoration: none;
   color: #292929;
+
+  @media (max-width: 540px) {
+    width: 300px;
+  }
 }
 a {
   text-decoration: none;
