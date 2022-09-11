@@ -121,18 +121,14 @@ const MainLeft = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 style={{ textDecoration: "underline" }}>
-              CS50's Understanding Technology - Harvard University
-            </h5>
+            <h5>CS50's Understanding Technology - Harvard University</h5>
           </a>
           <a
             href="https://drive.google.com/file/d/1zK0I6izWqq9z_R8VSEUUaFs3TTfhC921/view"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 style={{ textDecoration: "underline" }}>
-              The Fundementals of Digital Marketing - Google Inc
-            </h5>
+            <h5>The Fundamentals of Digital Marketing - Google Inc</h5>
           </a>
         </div>
       </div>
