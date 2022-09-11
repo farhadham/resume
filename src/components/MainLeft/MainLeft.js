@@ -67,6 +67,17 @@ const MainLeft = () => {
         <h3>Full-Stack E-Commerce Application</h3>
         <ul className={styles.list}>
           <li>Developed using React Native, Express.js, and MongoDB</li>
+          <li>SMS Authentication, Email Notification, Payment System</li>
+          <li>
+            <a
+              href="https://karla-online.com"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#4f4f4f", textDecoration: "underline" }}
+            >
+              Website
+            </a>
+          </li>
         </ul>
         <div
           style={{
@@ -110,14 +121,18 @@ const MainLeft = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5>CS50's Understanding Technology - Harvard University</h5>
+            <h5 style={{ textDecoration: "underline" }}>
+              CS50's Understanding Technology - Harvard University
+            </h5>
           </a>
           <a
             href="https://drive.google.com/file/d/1zK0I6izWqq9z_R8VSEUUaFs3TTfhC921/view"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5>The Fundementals of Digital Marketing - Google Inc</h5>
+            <h5 style={{ textDecoration: "underline" }}>
+              The Fundementals of Digital Marketing - Google Inc
+            </h5>
           </a>
         </div>
       </div>
