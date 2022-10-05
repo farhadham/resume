@@ -14,9 +14,9 @@ function App() {
           <MainLeft />
           <MainRight />
         </div>
-        {/* <a href="https://farhadf.com/cv.pdf">
+        <a href="https://farhadf.com/cv.pdf">
           <button>Download PDF</button>
-        </a> */}
+        </a>
       </div>
     </div>
   );
