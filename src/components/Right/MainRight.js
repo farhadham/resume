@@ -23,6 +23,8 @@ const MainRight = () => {
       <h4>Express.js</h4>
       <h4>MongoDB</h4>
       <h4>React Native</h4>
+      <h4>Python</h4>
+      <h4>Three.js</h4>
       <div
         style={{
           display: "flex",
@@ -38,6 +40,21 @@ const MainRight = () => {
       <h4>Turkish</h4>
       <h4>Persian</h4>
       <h4>Azerbaijani</h4>
+      <div
+        style={{
+          display: "flex",
+          gap: "10px",
+          alignItems: "center",
+          marginTop: "50px",
+        }}
+      >
+        <div className={styles.rectangle}></div>
+        <h1>OTHER SKILLS</h1>
+      </div>
+      <h4>Photoshop</h4>
+      <h4>Premiere Pro</h4>
+      <h4>Figma</h4>
+      <h4>3D design</h4>
     </div>
   );
 };

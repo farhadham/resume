@@ -17,7 +17,7 @@ const MainLeft = () => {
             justifyContent: "space-between",
           }}
         >
-          <h3>Web Developer - Freelance</h3>
+          <h3>Full-Stack Web Developer - Freelance</h3>
           <span className={styles.span}>2022 - present</span>
         </div>
 
@@ -47,8 +47,15 @@ const MainLeft = () => {
         <div className={styles.list}>
           <ul>
             <li>
-              Completed more than 180 projects for various clients including
-              OverWolf, NHL stenden, and Eventopeople.
+              Completed more than 180 projects for various clients including{" "}
+              <a href="https://www.facebook.com/nhlstenden/videos/475244907279750/">
+                NHL stenden
+              </a>
+              , and{" "}
+              <a href="https://www.instagram.com/p/CW_P0o0KwTN/">
+                Eventopeople
+              </a>
+              .
             </li>
             <li>5-star Reviews for all of the accomplished jobs </li>
           </ul>
@@ -62,9 +69,9 @@ const MainLeft = () => {
           }}
         >
           <div className={styles.rectangle}></div>
-          <h1>PROJECTS</h1>
+          <h1>FREELANCE PROJECTS</h1>
         </div>
-        <h3>Full-Stack E-Commerce Application</h3>
+        <h3>Karla Shop / Full-Stack E-Commerce Application</h3>
         <ul className={styles.list}>
           <li>Developed using React Native, Express.js, and MongoDB</li>
           <li>SMS Authentication, Email Notification, Payment System</li>
@@ -76,6 +83,57 @@ const MainLeft = () => {
               style={{ color: "#4f4f4f", textDecoration: "underline" }}
             >
               Website
+            </a>
+          </li>
+        </ul>
+        <h3>Radicalsecurity.io Landing Page</h3>
+        <ul className={styles.list}>
+          <li>Developed using Next.js and Tailwind.css</li>
+          <li>Created a responsive page from the Figma design</li>
+          <li>
+            Under development{" "}
+            <a
+              href="https://radical-security.vercel.app/teams"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#4f4f4f", textDecoration: "underline" }}
+            >
+              Link
+            </a>
+          </li>
+        </ul>
+        <h3>Sorex.eu Webpage</h3>
+        <ul className={styles.list}>
+          <li>Developed using Next.js and Framer-motion</li>
+          <li>
+            Created a responsive and multilingual webpage. Scroll-based 3d
+            animations
+          </li>
+          <li>
+            Under development{" "}
+            <a
+              href="https://sorex-landingpage.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#4f4f4f", textDecoration: "underline" }}
+            >
+              Link
+            </a>
+          </li>
+        </ul>
+        <h3>then0bot.com Landing Page</h3>
+        <ul className={styles.list}>
+          <li>Developed using Next.js and Framer-motion</li>
+          <li>Created a responsive page from the Figma design</li>
+          <li>
+            Under development{" "}
+            <a
+              href="https://then0tbot.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#4f4f4f", textDecoration: "underline" }}
+            >
+              Link
             </a>
           </li>
         </ul>
@@ -129,6 +187,14 @@ const MainLeft = () => {
             rel="noopener noreferrer"
           >
             <h5>The Fundamentals of Digital Marketing - Google Inc</h5>
+          </a>
+          <a
+            href="https://coursera.org/verify/9R5JKA7BXBDW
+            "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h5>Meta Back-End Developer - Programming in Python</h5>
           </a>
         </div>
       </div>

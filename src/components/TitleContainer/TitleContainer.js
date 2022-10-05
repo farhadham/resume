@@ -9,7 +9,7 @@ const TitleContainer = () => {
     <div className={styles.titleContainer}>
       <div className={styles.left}>
         <h1>FARHAD FARAJI</h1>
-        <h3>Web Developer</h3>
+        <h3>Full-Stack Web Developer</h3>
       </div>
       <div className={styles.right}>
         <p>
@@ -42,7 +42,7 @@ const TitleContainer = () => {
           <span>
             <BiCurrentLocation />
           </span>
-          Turkey / Iran
+          Iran /Turkey
         </p>
       </div>
     </div>
